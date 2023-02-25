@@ -268,7 +268,7 @@ main{
 .background{
    
     width: 100%;
-    background-color: #576574;
+    background-color: #373e45;
     color: white;
 }
 .footer-container{
@@ -282,6 +282,9 @@ main{
     width: 33.33%;
     padding: 2rem 2rem;
    
+}
+.div33 p{
+    font-size: 1.5rem;
 }
 
 .div33 h3{
