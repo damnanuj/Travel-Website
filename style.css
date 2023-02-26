@@ -330,8 +330,14 @@ padding-bottom: 1.1rem;
     padding: 20px;
     font-size: 1.5rem;
 }
+#copyright a{
+    color: var(--dark-pink);
+    font-size: 1.8rem ;
+}
 
-
+/* =============================================================================== */
+/* =================== Media Query Starts from Here  =========================== */
+/* ========================================================================= */
 @media screen and (max-width: 1240px) {
     .logo{
         width: 11rem;
