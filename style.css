@@ -41,6 +41,7 @@ header{
     justify-content: space-between;
     align-items: center;
     
+    
 }
 .navbar-list{
     display: flex;
@@ -72,6 +73,7 @@ header{
 
 /* =============================   Main hero sections   =========================== */
 main{
+
     width: 100%;
     /* background-color: peru; */
     height: auto;
@@ -169,6 +171,7 @@ main{
 .card-container{
     display: flex;
     justify-content: space-around;
+    margin-top: 8rem;
    
 }
 .cards{
@@ -379,5 +382,93 @@ padding-bottom: 1.1rem;
         border-radius: 0.5rem;
         cursor: pointer;
     }
+    /* ====================  Cards Starts from here ======================================== */
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6rem;
+   
+}
+.cards{
+    width: 22%;
+    height: auto;
+    
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color:var(--card-color);
+    margin-bottom: 4rem;
+    display: inline-block;
+    display: grid;
+    
+}
+.card-image img{
+    width: 100%;
+    /* height: 20%; */
+    border-top-right-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
+}
+.card-title{
+    color: var(--text-color);
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    
+    font-family: poppins;
+}
+.card-disc{
+    margin-top: 1rem;
+    text-align: center;
+    
+}
+.des-p{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-right: 1.1rem;
+    margin-left: 1.1rem;
+    margin-bottom: 1rem;
+    font-family: poppins;
+    color: var(--text-color);
+}
+.card-btn{
+    margin-top: auto;
+   margin-bottom: 2rem;
+   color: white;
+   background-color: var(--dark-pink);
+   /* border: 0.03rem solid var(--text-color); */
+   border: none;
+   padding: 0.6rem 1.2rem;
+  font-size: 1.1rem;
+   border-radius: 0.5rem;
+   cursor: pointer;
+   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+/* .card-btn:hover{
+    background-color: var(--hover-dark-pink);
+    color: white;
+    transition: all 0.3s ease 0s;
+    
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} */
+.seemore{
+    display: flex;
+    
+    margin-bottom: 20rem;
+    align-items: center;
+    justify-content: center;
+}
+.see-btn{
+   
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: poppins;
+    margin-right: 2rem;
+    padding: 1rem 5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    background-color: var(--dark-pink);
+    color: white;
+    
+}
 
 }
