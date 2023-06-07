@@ -41,7 +41,6 @@ header{
     justify-content: space-between;
     align-items: center;
     
-    
 }
 .navbar-list{
     display: flex;
@@ -65,18 +64,13 @@ header{
     color: rgb(33, 33, 33);
     font-weight: 500;
 }
-
-
-
-
 /* ==================== Navbars part ends ======================================= */
 
 /* =============================   Main hero sections   =========================== */
 main{
-
     width: 100%;
     /* background-color: peru; */
-    height: auto;
+    height: 100vh;
     display: flex;
     justify-content: space-between;
 }
@@ -113,8 +107,6 @@ main{
     align-items: center;
     justify-content: center;
 }
-
-
 /* ==========================  Buttons Part Starts   ================================ */
 
 .btns{
@@ -171,7 +163,6 @@ main{
 .card-container{
     display: flex;
     justify-content: space-around;
-    margin-top: 8rem;
    
 }
 .cards{
@@ -270,6 +261,10 @@ main{
     background-color: var(--hover-dark-pink);
 }
 
+.contact img{
+    width: 100%;
+   
+}
 
 
 /* =====================  Footer part  ===================== */
@@ -277,7 +272,7 @@ main{
 .background{
    
     width: 100%;
-    background-color: #373e45;
+    background-color: #576574;
     color: white;
 }
 .footer-container{
@@ -291,9 +286,6 @@ main{
     width: 33.33%;
     padding: 2rem 2rem;
    
-}
-.div33 p{
-    font-size: 1.5rem;
 }
 
 .div33 h3{
@@ -320,9 +312,9 @@ padding-bottom: 1.1rem;
     color: white;
     font-size: 1.5rem;
 }
-/* #footer-menu-container{
-     padding-left: 100px;
-} */
+#footer-menu-container{
+    /* padding-left: 100px; */
+}
 #copyright{
     background-color: #222f3e;
     text-align: center;
@@ -330,151 +322,5 @@ padding-bottom: 1.1rem;
     padding: 20px;
     font-size: 1.5rem;
 }
-#copyright a{
-    color: var(--dark-pink);
-    font-size: 1.8rem ;
-}
 
-/* =============================================================================== */
-/* =================== Media Query Starts from Here  =========================== */
-/* ========================================================================= */
-@media screen and (max-width: 1240px) {
-    .logo{
-        width: 11rem;
-    }
-    .navbar-list{
-        display: flex;
-        gap: 4.8rem;
-        list-style: none;
-    }
-    .navbar-links:link,
-    .navbar-links:visited{
-        display: inline-block;
-       
-        text-decoration: none;
-        font-size: 2.2rem;
-        font-weight: 500;
-        font-family: poppins;
-        color: var(--text-color);
-        transition: all 0.3s;
-    }
-    .left .texts h1{
-        font-size: 6rem;
-    }
-    .banner{
-        width: 45rem;
-    }
-    .para{
-        font-family: poppins;
-        font-size: 1.7rem;
-        font-weight: 500;
-        text-align: center;
-        margin-top: 0.5rem;
-        color: #424242;
-        line-height: 25px;
-        padding-right: 40px;
-    }
-    .btns{
-        margin-top: 3.5rem;
-        margin-left: 9rem;
-    }
-    .btn{
-        text-decoration: none;
-        font-size: 1.5rem;
-        font-weight: 600;
-        font-family: poppins;
-        margin-right: 1.3rem;
-        padding: 0.5rem 1.2rem;
-        border-radius: 0.5rem;
-        cursor: pointer;
-    }
-    /* ====================  Cards Starts from here ======================================== */
-.card-container{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 6rem;
-   
-}
-.cards{
-    width: 22%;
-    height: auto;
-    
-    border-radius: 1.5rem;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-color:var(--card-color);
-    margin-bottom: 4rem;
-    display: inline-block;
-    display: grid;
-    
-}
-.card-image img{
-    width: 100%;
-    /* height: 20%; */
-    border-top-right-radius: 1.5rem;
-    border-top-left-radius: 1.5rem;
-}
-.card-title{
-    color: var(--text-color);
-    text-align: center;
-    font-size: 1.2rem;
-    margin-top: 1rem;
-    
-    font-family: poppins;
-}
-.card-disc{
-    margin-top: 1rem;
-    text-align: center;
-    
-}
-.des-p{
-    font-size: 1.2rem;
-    text-align: center;
-    margin-right: 1.1rem;
-    margin-left: 1.1rem;
-    margin-bottom: 1rem;
-    font-family: poppins;
-    color: var(--text-color);
-}
-.card-btn{
-    margin-top: auto;
-   margin-bottom: 2rem;
-   color: white;
-   background-color: var(--dark-pink);
-   /* border: 0.03rem solid var(--text-color); */
-   border: none;
-   padding: 0.6rem 1.2rem;
-  font-size: 1.1rem;
-   border-radius: 0.5rem;
-   cursor: pointer;
-   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
-}
-/* .card-btn:hover{
-    background-color: var(--hover-dark-pink);
-    color: white;
-    transition: all 0.3s ease 0s;
-    
-    border: none;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-} */
-.seemore{
-    display: flex;
-    
-    margin-bottom: 20rem;
-    align-items: center;
-    justify-content: center;
-}
-.see-btn{
-   
-    text-decoration: none;
-    font-size: 1.2rem;
-    font-family: poppins;
-    margin-right: 2rem;
-    padding: 1rem 5rem;
-    border-radius: 0.5rem;
-    cursor: pointer;
-    background-color: var(--dark-pink);
-    color: white;
-    
-}
 
-}
